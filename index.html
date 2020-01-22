@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Music Player</title>
+</head>
+
+<body>
+  <audio id="audio" data-current-song="Alec Benjamin - Jesus In LA" >
+    <source src="Alec Benjamin - Jesus In LA.mp3" type="audio/mpeg">
+    <p>Your browser doesn't support HTML5 audio.</p>
+  </audio>
+  <div class="music-player">
+    <p class="song-name display-4 text-center">Alec Benjamin - Jesus In LA</p>
+    <p class="text-center display-3 time">
+      <span class="time-current"></span> <span class="time-colon">/</span> <span class="time-duration"></span>
+    </p>
+    <input type="range" min="0" max="100" value="0" step="1" class="range time-range w-100 blue" />
+    <div class="volume-controllers mt-5 pt-3 d-flex">
+      <i class="volume-icon fas fa-volume-up fa-2x mr-3"></i>
+      <input type="range" min="0" max="1" value="1" step="0.05" class="w-50 mr-4 range volume-range blue"
+        style="opacity: 1" />
+
+    </div>
+    <div class="btn-controllers mt-3 d-flex">
+      <button class="btn-play btn btn-lg rounded mr-3 shadow-sm">Play</button>
+      <button class="btn-pause btn btn-lg rounded mr-3 shadow-sm">Pause</button>
+      <button class="btn-stop btn btn-lg rounded  shadow-sm">Stop</button>
+    </div>
+  </div>
+
+  <div class="songs-list mr-3">
+    <p class="song h4 mb-3 p-3 rounded shadow-sm" data-song="Alec Benjamin - Jesus In LA" data-src="Alec Benjamin - Jesus In LA.mp3">
+      Alec Benjamin - Jesus In LA
+    </p>
+    <p class="song h4 mb-3 p-3 rounded shadow-sm" data-song="Ashe - Moral Of The Story" data-src="Ashe - Moral Of The Story.mp3">
+      Ashe - Moral Of The Story
+    </p>
+    <p class="song h4 mb-3 p-3 rounded shadow-sm" data-song="Dusk Till Dawn - ZAYN ft.Sia" data-src="Dusk Till Dawn - ZAYN ft. Sia (Lyrics).mp3">
+      Dusk Till Dawn - ZAYN ft.Sia
+    </p>
+    <p class="song h4 mb-3 p-3 rounded shadow-sm" data-song="Maroon 5 - Memories" data-src="Maroon 5 - Memories.mp3">
+      Maroon 5 - Memories
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
