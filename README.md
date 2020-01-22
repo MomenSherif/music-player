@@ -1,4 +1,4 @@
-** Music Player 🔥🔥🔥 **
+**Music Player** 🔥🔥🔥 
 ## Feature
  - Select Song
  - Update Time
