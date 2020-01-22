@@ -1,5 +1,5 @@
 **Music Player** 🔥🔥🔥 
-## Feature
+## Features
  - Select Song
  - Update Time
  - Play / Pause / Stop
