@@ -1,8 +1,8 @@
 **Music Player** 🔥🔥🔥 
 ## Features
- - Select Song
+ - Select a Song
  - Update Time
- - Play / Pause / Stop
+ - Play / Pause / Stop Buttons
  - Time duration range adjustment
  - Volume range / Mute Toggle
 
